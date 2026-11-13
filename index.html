@@ -78,8 +78,8 @@
       <div class="workspace-body">
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.25rem;">
           <div>
-            <label for="device-kind" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem; color: var(--color-text);">Hardware Platform</label>
-            <select id="device-kind" class="btn" style="width: 100%; padding: 0.6rem; background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text); border-radius: 6px;">
+            <label for="device-kind" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.45rem; color: var(--text-primary);">Hardware Platform</label>
+            <select id="device-kind" class="form-select" aria-label="Hardware Platform">
               <option value="nvidia">NVIDIA GPU (CUDA / TensorRT)</option>
               <option value="apple">Apple Silicon (M-Series Unified RAM)</option>
               <option value="amd">AMD Radeon GPU (ROCm / Vulkan)</option>
@@ -87,16 +87,16 @@
             </select>
           </div>
           <div>
-            <label for="vram-input" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem; color: var(--color-text);">Dedicated VRAM (GB)</label>
-            <input id="vram-input" type="number" min="0" max="192" value="8" class="btn" style="width: 100%; padding: 0.6rem; background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text); border-radius: 6px; text-align: left;" />
+            <label for="vram-input" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.45rem; color: var(--text-primary);">Dedicated VRAM (GB)</label>
+            <input id="vram-input" type="number" min="0" max="192" value="8" class="form-input" aria-label="Dedicated VRAM in Gigabytes" />
           </div>
           <div>
-            <label for="ram-input" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem; color: var(--color-text);">System RAM (GB)</label>
-            <input id="ram-input" type="number" min="4" max="512" value="16" class="btn" style="width: 100%; padding: 0.6rem; background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text); border-radius: 6px; text-align: left;" />
+            <label for="ram-input" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.45rem; color: var(--text-primary);">System RAM (GB)</label>
+            <input id="ram-input" type="number" min="4" max="512" value="16" class="form-input" aria-label="System RAM in Gigabytes" />
           </div>
           <div>
-            <label for="context-input" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem; color: var(--color-text);">Context Target (k tokens)</label>
-            <select id="context-input" class="btn" style="width: 100%; padding: 0.6rem; background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text); border-radius: 6px;">
+            <label for="context-input" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.45rem; color: var(--text-primary);">Context Target (k tokens)</label>
+            <select id="context-input" class="form-select" aria-label="Context Target in thousands of tokens">
               <option value="4">4k tokens (Chat / Drafting)</option>
               <option value="8" selected>8k tokens (Standard Agent Loop)</option>
               <option value="16">16k tokens (Code Analysis)</option>
