@@ -1,0 +1,18 @@
+{
+  "authority": "NONE",
+  "externalActionsAuthorized": false,
+  "intent": {
+    "description": "Free offline LLM VRAM & local hardware fit calculator.",
+    "mode": "LOCAL_STAGE2_CUSTOMIZED_SCRATCH_ONLY",
+    "modelId": "qwen2.5-coder:7b",
+    "runId": "dk01-hardwarefit-1794529201",
+    "schema": "othrys.cortex.dk01-customizer.v1",
+    "slug": "hardwarefit",
+    "task": "Determine whether local open-weight LLMs will fit in GPU/system VRAM based on parameter size, quantization precision, and context length.",
+    "titanId": "theia",
+    "title": "HardwareFit"
+  },
+  "intentSha256": "27cb97acc5c3700e928e5024a4571075a881032c5d02c799935a4ce3703c946d",
+  "paidApiCalls": 0,
+  "startedAt": "2026-11-13T00:20:01+00:00"
+}

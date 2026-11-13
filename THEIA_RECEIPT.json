@@ -1,0 +1,20 @@
+{
+  "customizedFields": {
+    "customFaqAnswer": "It means no cookies are stored on our servers.",
+    "customFaqQuestion": "What does 'zero-cookie' mean?",
+    "eyebrow": "OFFLINE \u00b7 ZERO UPLOAD \u00b7 INSTANT",
+    "heroSubtitle": "Calculate if your LLM will fit in your GPU or system VRAM.",
+    "inputPlaceholder": "Enter model name, parameter size, quantization, and context length",
+    "primaryCta": "CHECK FIT"
+  },
+  "customizedFieldsSha256": "592641443772b8597cb0d788dc7a1c36ac2c4059f083842ac97a62888f94c74a",
+  "inferenceMs": 4016,
+  "modelId": "qwen2.5-coder:7b",
+  "paidApiCalls": 0,
+  "promptSha256": "fbaba4632223e3687f6c78ac1c30630931c533c96b45a344fc930561544f73c0",
+  "runId": "dk01-hardwarefit-1794529201",
+  "schema": "othrys.cortex.dk01-theia-receipt.v1",
+  "titanId": "theia",
+  "tokensIn": 296,
+  "tokensOut": 104
+}
