@@ -7,6 +7,15 @@
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <title>HardwareFit — Privacy-Focused Client-Side Utility | OTHRYS Fleet</title>
   <meta name="description" content="Free offline LLM VRAM & local hardware fit calculator. Privacy-focused and runs entirely in your browser with zero server uploads." />
+  <meta property="og:title" content="HardwareFit - Local LLM VRAM &amp; Hardware Fit Calculator" />
+  <meta property="og:description" content="Estimate whether a local LLM fits your GPU or system memory. Calculated 100% in your browser with zero cloud uploads." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hardwarefit.othrys.be/" />
+  <meta property="og:image" content="https://hardwarefit.othrys.be/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://hardwarefit.othrys.be/og-image.svg" />
   <link rel="canonical" href="https://hardwarefit.othrys.be/" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="stylesheet" href="/src/style.css" />
@@ -25,6 +34,38 @@
       "price": "0",
       "priceCurrency": "EUR"
     }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does the HardwareFit calculator measure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HardwareFit estimates whether a local LLM fits your GPU or system memory. You enter VRAM, system RAM, hardware platform, and context length, and it returns per-model fit estimates for local inference."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does HardwareFit run entirely in my browser?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The VRAM and hardware compatibility calculations run 100% client-side in your browser using local JavaScript. No computation is sent to a server."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does HardwareFit store cookies or upload my inputs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. HardwareFit sets zero tracking cookies and makes zero cloud uploads. Your VRAM, RAM, and context inputs stay in volatile browser memory and are never transmitted."
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -124,20 +165,16 @@
       <h3 class="section-title">Frequently Asked Questions</h3>
       <div class="faq-grid">
         <details class="faq-item">
-          <summary class="faq-question">Are my files or text uploaded to a remote server?</summary>
-          <p class="faq-answer">No. All computation occurs 100% client-side in your browser JavaScript thread. No payload data is ever transmitted across the network.</p>
+          <summary class="faq-question">What does the HardwareFit calculator measure?</summary>
+          <p class="faq-answer">HardwareFit estimates whether a local LLM fits your GPU or system memory. You enter VRAM, system RAM, hardware platform, and context length, and it returns per-model fit estimates for local inference.</p>
         </details>
         <details class="faq-item">
-          <summary class="faq-question">Does HardwareFit use advertising or behavioral trackers?</summary>
-          <p class="faq-answer">Never. OTHRYS tools have no advertising tracking pixels, no advertising analytics scripts, and set zero third-party cookies.</p>
+          <summary class="faq-question">Does HardwareFit run entirely in my browser?</summary>
+          <p class="faq-answer">Yes. The VRAM and hardware compatibility calculations run 100% client-side in your browser using local JavaScript. No computation is sent to a server.</p>
         </details>
         <details class="faq-item">
-          <summary class="faq-question">Can I use this tool offline?</summary>
-          <p class="faq-answer">Yes! Once loaded, HardwareFit executes without any network dependency. You can safely disconnect your internet connection and keep using it.</p>
-        </details>
-        <details class="faq-item">
-          <summary class="faq-question">What does &#x27;zero-cookie&#x27; mean?</summary>
-          <p class="faq-answer">It means no cookies are stored on our servers.</p>
+          <summary class="faq-question">Does HardwareFit store cookies or upload my inputs?</summary>
+          <p class="faq-answer">No. HardwareFit sets zero tracking cookies and makes zero cloud uploads. Your VRAM, RAM, and context inputs stay in volatile browser memory and are never transmitted.</p>
         </details>
       </div>
     </section>

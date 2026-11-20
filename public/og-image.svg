@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="og-title og-desc">
+  <title id="og-title">HardwareFit - Local LLM VRAM and Hardware Fit Calculator</title>
+  <desc id="og-desc">Estimate whether a local LLM fits your GPU or system memory, calculated 100% in your browser.</desc>
+  <rect width="1200" height="630" fill="#0b0f14"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#111821" stroke="#243140" stroke-width="2"/>
+  <circle cx="1010" cy="150" r="120" fill="#16a34a" opacity="0.08"/>
+  <circle cx="1010" cy="150" r="72" fill="none" stroke="#16a34a" stroke-width="6" opacity="0.55"/>
+  <path d="M974 150l24 24 48-52" fill="none" stroke="#22c55e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="104" y="180" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#f8fafc">HardwareFit</text>
+  <text x="104" y="252" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#22c55e" letter-spacing="3">LOCAL LLM VRAM CALCULATOR</text>
+  <text x="104" y="342" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="400" fill="#cbd5e1">Check if your GPU or system memory can run a model.</text>
+  <text x="104" y="392" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="400" fill="#cbd5e1">Enter VRAM, RAM, and context length for a fit estimate.</text>
+  <rect x="104" y="452" width="500" height="64" rx="32" fill="#16a34a" opacity="0.14"/>
+  <text x="336" y="493" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#4ade80">100% in-browser, zero uploads</text>
+  <text x="104" y="570" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#64748b">hardwarefit.othrys.be</text>
+</svg>
