@@ -1,0 +1,7 @@
+Name: HardwareFit
+URL: https://hardwarefit.othrys.be/
+Description: Offline LLM VRAM and local GPU/RAM hardware fit calculator running entirely in your browser with zero server uploads.
+LLMs-Txt: https://hardwarefit.othrys.be/llms.txt
+Sitemap: https://hardwarefit.othrys.be/sitemap.xml
+Protocol: public-read-only
+Privacy: zero-tracking-cookies, local-browser-execution, zero-cloud-uploads

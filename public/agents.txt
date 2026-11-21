@@ -1,6 +1,6 @@
 Name: HardwareFit
 URL: https://hardwarefit.othrys.be/
-Description: AI discovery manifest for HardwareFit - a hardware analysis and optimization tool
+Description: Offline LLM VRAM and local GPU/RAM hardware fit calculator running entirely in your browser with zero server uploads.
 LLMs-Txt: https://hardwarefit.othrys.be/llms.txt
 Sitemap: https://hardwarefit.othrys.be/sitemap.xml
 Protocol: public-read-only
